@@ -17,7 +17,6 @@ ul {
 
 img {
   max-width: 100%;
-  border-radius: 15px;
 }
 
 .container {
@@ -31,6 +30,9 @@ html {
   background-color: #E5E5E5;
 }
 .container-heading {
+  margin-left: 34px;
+  margin-bottom: 20px;
+  margin-top: 70px;
   font-size: 40px;
   font-weight: 400;
   color: #333333;
@@ -90,6 +92,7 @@ html {
   color: #666666;
   font-size: 16px;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .btn {
@@ -99,6 +102,7 @@ html {
   padding: 13px 19px;
   border: 1px solid #CC9933;
   border-radius: 15px;
+  white-space: nowrap;
 }
 
 .nav.nav {
@@ -137,7 +141,7 @@ html {
   color: #ffffff;
   margin-top: 40px;
   margin-bottom: 15px;
-  
+  line-height: 40px;
 }
 
 .special-one {
@@ -156,7 +160,7 @@ html {
 }
 
 .special-discription {
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   font-size: 20px;
   font-weight: 400;
   color: #ffffff;
@@ -173,15 +177,54 @@ html {
   border-radius: 15px;
 }
 
+.special-heading-big {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+.special-link-big {
+  font-size: 16px;
+  font-weight: 400;
+  color: #F0BF5F;
+}
+
+.special-discription-big {
+  margin-top: 8px;
+  margin-bottom: 3px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+}
 .special-container-big {
   width: 573px;
   height: 540px;
   margin-left: 25px;
 }
 
+.special-big-div {
+  width: 180px;
+  margin-top: 212px;
+  margin-left: 45px;
+  line-height: 60px;
+}
+
+
 /* вторая секция */
 .section-about {
   margin-top: 70px;
+}
+.container-about {
+  width: 888px;
+  height: 252px;
+  margin-left: 81.5px;
+}
+
+.about-paragraph {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
 }
 
 /* третья секция */
@@ -203,6 +246,38 @@ html {
 .services-item {
   width: 573px;
   height: 330px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.services-div {
+  width: 402px;
+  height: 104px;
+  margin-top: 26px;
+  margin-left: 48px;
+  background-color: #FFFFFF;
+}
+
+.services-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.services-mb {
+  margin-bottom: 24px;
+}
+
+.services-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: #CC9933;
+}
+
+.services-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: #000000;
 }
 
 /* четвертная секция */
@@ -220,6 +295,25 @@ html {
 .benefits-item {
   width: 276px;
   height: 276px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.benefits-div {
+  margin-bottom: 22px;
+}
+
+.benefits-paragraph {
+  width: 194px;
+  height: 128px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: #000000;
+}
+.benefits-div-paragraph {
+  margin-top: 40px;
+  margin-left: 45px;
 }
 
 /* пятая секция */
@@ -238,6 +332,34 @@ html {
 .accommodation-item {
   width: 374px;
   height: 440px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 24px;
+}
+
+.color-text,
+.accommodation-sity {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+strong {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.night, .accommodation-hotel {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.accommodation-div {
+  margin-top: 32px;
+  margin-left: 45px;
 }
 
 .accommodation-background {
@@ -246,6 +368,27 @@ html {
   border-radius: 15px;
 }
 
-.accommodation-photo {
-  object-fit: cover;
+.accommodation-link9 {
+  display: block;
+  margin-top: 373px;
+  margin-left: 54px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.accommodation-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.star {
+  margin-left: 60px;
+}
+
+.accommodation-btn {
+  display: block;
+  width: 100px;
+  height: 42px;
+  padding-top: 10px;
+  border-radius: 10px;
 }
